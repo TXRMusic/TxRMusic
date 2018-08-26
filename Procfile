@@ -1,1 +1,1 @@
-worker: node TxRMusic.js
+worker: node bot.js
