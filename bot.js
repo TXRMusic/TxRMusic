@@ -343,8 +343,8 @@ client.on('message', message => {
 });
 
 
-client.on('message',message => {
-if(message.content.startsWith(prefix + "help")) {
+client.on('message', message => {
+if(message.content.startsWith(prefix + "h")) {
 message.reply('تم ارسال الهلب في الخاص') 
 message.author.send("test
 ولكمم
