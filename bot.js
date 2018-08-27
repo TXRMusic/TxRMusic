@@ -342,4 +342,14 @@ client.on('message', message => {
     }
 });
 
+
+client.on('message',message => {
+if(message.content.startsWith(prefix + "help")) {
+message.reply('تم ارسال الهلب في الخاص') 
+message.author.send("test
+ولكمم
+ارحب");
+}
+});
+
 client.login(process.env.BOT_TOKEN);
