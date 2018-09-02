@@ -24,12 +24,12 @@ client.on('ready', () => {
     client.user.setStatus("Online")
 });
   client.on('ready', () => {
-     client.user.setActivity("CODES",{type: 'LISTENING'});
+     client.user.setActivity("Light Morning",{type: 'LISTENING'});
  
 });
  
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "#"
+const prefix = "1"
 client.on('message', async msg => { // eslint-disable-line
     if (msg.author.bot) return undefined;
     //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
