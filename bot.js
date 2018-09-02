@@ -1,5 +1,6 @@
-var prefix = "!"
+
 client.on('message', message => {
+  var prefix = "!"
 
   if (message.content.startsWith( prefix + "sug")) {
   if (!message.channel.guild) return;
