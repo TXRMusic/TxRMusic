@@ -228,19 +228,38 @@ function play(guild, song) {
 
 
 
-client.on('message', message => {
-            if (message.content.startsWith(prefix + "help")) {
-     let embed = new Discord.RichEmbed()
-.setThumbnail(message.author.avatarURL)
-.addField('     1play : لتشغيل الاغاني ')
-.addField('     1skip : لتخطي الاغنية ')
-.addField('     1vol : لتحديد مستوى الصوت') 
-.addField('     1pause : للأيقاف المؤقت') 
-.addField('     1resume : للأستئناف')
-.setColor('#7d2dbe')
-  message.channel.sendEmbed(embed);
+
+            
+  client.on('message', message => {
+    if (message.author.bot) return;
+     if (message.content === prefix + "help-en") {
+		 message.channel.send('**The Message Was Sent On Private**');
+            
+	
+		 
+
+
+ message.author.sendMessage(`
+ 1play :لتشغيل الاغاني
+1skip : لتخطي الاغنية
+1vol : لتحديد مستوى الصوت
+1pause : للأيقاف المؤقت
+1resume : للأستنئاف
+
+`);
+
     }
-});
+});   
+
+
+
+
+
+
+
+ 
+
+
 
 
 
