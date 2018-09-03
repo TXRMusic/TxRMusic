@@ -228,4 +228,24 @@ function play(guild, song) {
 
 
 
+client.on('message', message => {
+            if (message.content.startsWith(prefix + "help")) {
+     let embed = new Discord.RichEmbed()
+.setThumbnail(message.author.avatarURL)
+.addField('     1play : لتشغيل الاغاني ')
+.addField('     1skip : لتخطي الاغنية ')
+.addField('     1vol : لتحديد مستوى الصوت') 
+.addField('     1pause : للأيقاف المؤقت') 
+.addField('     1resume : للأستئناف')
+.setColor('#7d2dbe')
+  message.channel.sendEmbed(embed);
+    }
+});
+
+
+
+
+
+
+
 client.login(process.env.BOT_TOKEN);
