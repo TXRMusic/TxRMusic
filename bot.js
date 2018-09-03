@@ -232,8 +232,8 @@ function play(guild, song) {
             
   client.on('message', message => {
     if (message.author.bot) return;
-     if (message.content === prefix + "help-en") {
-		 message.channel.send('**The Message Was Sent On Private**');
+     if (message.content === prefix + "help") {
+		 message.channel.send('**تم ارسال الهلب فالخاص**');
             
 	
 		 
