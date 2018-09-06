@@ -268,7 +268,7 @@ function play(guild, song) {
 
 
 const adminprefix = "1";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const devs = ['465675057226842115','398165277671555072','431779124898430979'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
+const devs = ['465675057226842115','431779124898430979'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
     if (!devs.includes(message.author.id)) return;//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
