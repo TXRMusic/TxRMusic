@@ -29,7 +29,7 @@ client.on('ready', () => {
 });
  
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "1"
+const prefix = "S"
 client.on('message', async msg => { // eslint-disable-line
     if (msg.author.bot) return undefined;
     //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
@@ -267,8 +267,8 @@ function play(guild, song) {
 
 
 
-const adminprefix = "1";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const devs = ['465675057226842115','431779124898430979'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
+const adminprefix = "S";//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
+const devs = ['465675057226842115','473980734109909007'];//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
 client.on('message', message => {//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
   var argresult = message.content.split(` `).slice(1).join(' ');//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
     if (!devs.includes(message.author.id)) return;//by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
