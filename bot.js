@@ -24,7 +24,7 @@ client.on('ready', () => {
     client.user.setStatus("Online")
 });
   client.on('ready', () => {
-     client.user.setActivity("1play , 3SH4",{type: 'LISTENING'});
+     client.user.setActivity("Músic",{type: 'LISTENING'});
  
 });
  
